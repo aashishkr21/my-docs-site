@@ -1,5 +1,11 @@
-site_name: My Docs Site
+site_name: My Documentation
 theme:
   name: material
+
 nav:
   - Home: index.md
+  - Automation Scripts:
+      - ECR Cleanup: automation-scripts/ecr-cleanup.md
+      - System Monitoring: automation-scripts/system-monitor.md
+  - Cost Optimization:
+      - AWS Optimization: cost-optimization/aws-optimization.md
